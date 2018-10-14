@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_setting"
+                android:icon="@drawable/setting"
+            android:title="setting"
+            />
+        <item android:id="@+id/nav_zoomin"
+            android:icon="@drawable/minus"
+            android:title="zoom in"
+            />
+        <item android:id="@+id/nav_zoomout"
+            android:icon="@drawable/plus"
+            android:title="zoom out"
+            />
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="logout"
+            />
+    </group>
+    <item android:title="communication">
+        <menu >
+            <item android:id="@+id/nav_share" android:checkable="true"
+                android:icon="@drawable/minus"
+                android:title="share"/>
+            <item android:id="@+id/nav_send"  android:checkable="true"
+                android:icon="@drawable/minus"
+                android:title="send"/>
+            <item android:id="@+id/nav_show"  android:checkable="true"
+                android:icon="@drawable/minus"
+                android:title="show"/>
+        </menu>
+    </item>
+
+</menu>

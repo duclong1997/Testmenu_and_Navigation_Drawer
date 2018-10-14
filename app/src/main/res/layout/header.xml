@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="100dp"
+    android:layout_height="150dp"
     android:orientation="vertical"
-    android:background="@mipmap/ic_launcher">
+    android:background="@drawable/eyal"
+    android:gravity="bottom"
+    android:padding="50px"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
     <ImageView
-        android:layout_width="100px"
-        android:layout_height="100px"
+        android:layout_width="50px"
+        android:layout_height="50px"
         android:src="@drawable/nhbas44"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="duclong"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Longndse04571@fpt.edu.vn"/>
 
 </LinearLayout>
